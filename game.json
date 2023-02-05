@@ -651,8 +651,8 @@
     {
       "b": 209,
       "disableInputWhenNotFocused": true,
-      "mangledName": "without_32limitation_32and_32limitation_32by_32object",
-      "name": "without limitation and limitation by object",
+      "mangledName": "Enforuce_32camera_32boundaries",
+      "name": "Enforuce camera boundaries",
       "r": 209,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -1161,16 +1161,14 @@
           "actions": [
             {
               "type": {
-                "value": "FixCamera"
+                "value": "ClampCamera"
               },
               "parameters": [
                 "",
-                "full_scene",
                 "max_left.X()",
                 "max_top.Y()",
                 "max_right.X()",
                 "max_bottom.Y()",
-                "",
                 "",
                 ""
               ]
